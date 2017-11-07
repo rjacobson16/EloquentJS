@@ -38,7 +38,7 @@ NaN, the third special number
 ### Automatic Type Conversions
 
   * JS wants to avoid crashing, and so will coerce types in order to make
-  certain operations work. This often yields unexpeceted results, e.g.
+  certain operations work. This often yields unexpected results, e.g.
   `("5" - 1)` --> 4, `("5" + 1)` --> 51
 
   * Use `===` to avoid type conversion
@@ -160,7 +160,7 @@ NaN, the third special number
 #######
 ```
 
-Answer:
+My Answer:
 
 ```
 for (var i = 0; i < 8; i++) {
@@ -174,7 +174,7 @@ for (var i = 0; i < 8; i++) {
 
 ### Exercise 2: FizzBuzz
 
-Answer:
+My Answer:
 
 ```
 for (var i = 1; i < 101; i++) {
@@ -212,7 +212,7 @@ for (var i = 1; i < 101; i++) {
 
 *When you have a program that generates this pattern, define a variable size = 8 and change the program so that it works for any size, outputting a grid of the given width and height.*
 
-Answer:
+My Answer:
 
 ```
 size = 8
@@ -222,7 +222,7 @@ for (var row = 0; row < size; row++) {
   for (var col = 0; col < size; col++) {
   	if (row % 2 == 0) {
       if (col % 2 == 0) str += ' '
-      if (col % 2 != 0) str += '#' 
+      if (col % 2 != 0) str += '#'
     } else {
       if (col % 2 == 0) str += '#'
       if (col % 2 != 0) str += ' '
